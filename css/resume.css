@@ -1,0 +1,72 @@
+:root {
+  font-size: 16px;
+}
+body {
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  text-align: center;
+  margin: 2em 0;
+}
+header h1 {
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.summary {}
+
+.summary h1,
+.work-experience h1,
+.summary-expertise h3,
+.summary-experience h3 {
+  display: inline-block;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border-top: 2px solid green;
+  border-left: 2px solid green;
+}
+.summary h1,
+.work-experience h1 {
+  font-size: 1.6em;
+}
+.summary-cloud {
+  display: flex;
+  flex-wrap: wrap;
+}
+.summary-cloud li {
+  flex-basis: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.summary-cloud img {
+  width: 50%;
+}
+li.web {
+  flex-basis: 100%;
+}  
+.web img {
+  width: 70%;
+}
+ul, ol {
+  padding: 0 1em;
+}
+.summary-points li:not(:last-child) {
+  margin-bottom: 1em;
+}
+.summary-points,
+.summary-expertise {
+  padding: 1em 0;
+}
+.summary-expertise ol,
+.summary-experience ol {
+  list-style-type: url;
+  list-style-position: inside;
+}
