@@ -1,5 +1,6 @@
 :root {
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "Sumana", monospace;
 }
 body {
   padding: 2em 1em;
@@ -55,9 +56,6 @@ li.web {
 .web img {
   width: 70%;
 }
-ul, ol {
-  padding: 0 1em;
-}
 .summary-points li:not(:last-child) {
   margin-bottom: 1em;
 }
@@ -65,8 +63,30 @@ ul, ol {
 .summary-expertise {
   padding: 1em 0;
 }
-.summary-expertise ol,
-.summary-experience ol {
-  list-style-type: url;
-  list-style-position: inside;
+.summary-expertise ol {
+  white-space: nowrap;
+}
+.summary-expertise,
+.summary-experience {
+  counter-reset: marker -1;
+}
+.summary-expertise li::before {
+  content: counter(marker) " ";
+  counter-increment: marker;
+  display: inline-block;
+  width: 1.3em;
+  float: left;
+}
+.position {
+  padding-bottom: 1em; 
+}
+.company img {
+  width: 10em;
+}
+.position .summary, .summary-points {
+  font-family: "Inconsolata", serif;
+  font-weight: bold;
+}
+.position .summary {
+  margin: 1em 0;
 }
