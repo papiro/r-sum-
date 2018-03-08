@@ -62,7 +62,7 @@ li.web {
 .summary-points,
 .summary-expertise, 
 .summary-experience {
-  padding-bottom: 2em;
+  padding: 1em 0;
 }
 .summary-expertise ol {
   white-space: nowrap;
@@ -100,11 +100,18 @@ li.web {
 .position .company {
   margin: 1em 0 0.2em;
 }
+/* the first company name shouldn't have so much space between it and the "Work Experience" label */
+.work-experience h1 + .position .company {
+  margin-top: 0;
+}
 .position .role {
   margin-top: 1em;
   display: inline-block;
   padding: 0.5em;
   border: 0.1em ridge black;
+}
+.position ul {
+  align-self: left;
 }
 .event {
   padding: 0.625em;
