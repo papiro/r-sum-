@@ -19,6 +19,14 @@ header h1 {
   flex-direction: column;
   justify-content: center;
 }
+.contact {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+}
+.contact ul {
+  text-align: right;
+}
 .summary {}
 
 .summary h1,
