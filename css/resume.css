@@ -3,6 +3,8 @@
   font-family: "Sumana", monospace;
 }
 body {
+  margin: 0 auto;
+  max-width: 920px;
   padding: 2em 1em;
   display: flex;
   flex-direction: column;
