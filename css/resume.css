@@ -22,9 +22,15 @@ header h1 {
   justify-content: center;
 }
 .contact {
+  opacity: 1;
+  transition: 1s opacity;
   position: fixed;
   right: 1em;
   top: 1em;
+  background-color: white;
+}
+.contact.scrolled {
+  opacity: 0;
 }
 .contact ul {
   text-align: right;

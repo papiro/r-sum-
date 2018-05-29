@@ -203,5 +203,16 @@
         </ul>
       </div>
     </section>
+  <script>
+    const contact = document.querySelector('.contact')
+    const scroll_class = 'scrolled'
+
+    window.addEventListener('scroll', evt => {
+      if (window.scrollY)
+        contact.classList.add(scroll_class)
+      else 
+        contact.classList.remove(scroll_class)
+    })
+  </script>
   </body>
 </html>
