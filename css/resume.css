@@ -20,6 +20,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 0.1em;
 }
 .contact {
   opacity: 1;
@@ -66,6 +67,9 @@ header h1 {
 .summary-cloud img {
   width: 50%;
 }
+.summary-cloud img.vim {
+  width: 40%;
+}
 li.web {
   flex-basis: 100%;
 }  
@@ -74,6 +78,9 @@ li.web {
 }
 .summary-points li:not(:last-child) {
   margin-bottom: 1em;
+}
+.summary-points {
+  margin-top: 1em;
 }
 .summary-points,
 .summary-expertise, 
