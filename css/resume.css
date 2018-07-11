@@ -70,6 +70,9 @@ header h1 {
 .summary-cloud img.vim {
   width: 40%;
 }
+.summary-cloud img.sql {
+  width: 80%;
+}
 li.web {
   flex-basis: 100%;
 }  
