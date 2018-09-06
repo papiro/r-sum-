@@ -110,6 +110,9 @@ li.web {
 .company img {
   width: 10em;
 }
+.company img.cisco {
+  width: 8em;
+}
 .position .summary, .summary-points {
   font-family: "Inconsolata", serif;
   font-weight: bold;
