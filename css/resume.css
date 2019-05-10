@@ -113,6 +113,12 @@ li.web {
 .company img.cisco {
   width: 8em;
 }
+.company img.connect {
+  width: 11em;
+}
+.company img.binary-tree {
+  width: 13em;
+}
 .position .summary, .summary-points {
   font-family: "Inconsolata", serif;
   font-weight: bold;
